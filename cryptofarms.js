@@ -10,7 +10,7 @@ function loop(i){
             mineSelectorList[i].click()
             setTimeout(function(){
                 document.getElementById("mine-equipament").click()
-            }, 500)
+            }, 1000)
         }
         i--
         if(i >= 0 ){
